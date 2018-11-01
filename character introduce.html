@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="icon" href="soulworker_dock_icon_by_seraphna-dc54cwu.png" type="image/ico" />
+	<title>【SoulWorker】角色介紹</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+    <style>
+    /*頂部編輯*/
+    #topper{
+    	height: 100px;
+    	background-image: url("announcement_soulworker_ww_402e53b3416e87a11f87e8fa7c70f073.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: 10% 32%;
+    }
+        .vdst{
+    	position: absolute;
+    	top: 210px;
+    	left:200px;
+    }
+    .vdst1{
+    	position: absolute;
+    	top: 210px;
+    	left:800px;
+    }
+    #article{
+    	width: 100%;
+    	height:1000px;
+    	background-image: url("SoulWorker_Background_01.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    }
+        .imgcl{
+    	opacity: 0.5;
+    	position: absolute;
+    	z-index: 0;
+    	width: 300px;
+    	height: 169px;
+    }
+        .imgcl2{
+    	opacity: 0.5;
+    	position: relative;
+    	left:43%;
+    	text-align: center;
+    	z-index: 0;
+    	width: 300px;
+    	height: 169px;
+
+    }
+        .haruimg{
+        	position: absolute;
+        	top:550px;
+        	left:150px;
+        	width: 128px;
+        	height: 368px;
+        }
+        .liharu{
+    	position: absolute;
+    	width: 100%;
+    	height: 1000px;
+    	top: 100px;
+    	background-image: url("8d3f8ed5f1d51e29598729e7707f9b.png");
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    }
+        .lierwin{
+    	position: absolute;
+    	width: 100%;
+    	height: 1000px;
+    	top: 100px;
+    	background-image: url("dddf750c1af8a67b117821bd6c592c.png");
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    }
+        .lilily{
+    	position: absolute;
+    	width: 100%;
+    	height: 1000px;
+    	top: 100px;
+    	background-image: url("Lilly_1.png");
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-position: 10% 30%;
+    }
+            .listella{
+    	position: absolute;
+    	width: 100%;
+    	height: 1000px;
+    	top: 100px;
+    	background-image: url("Stella_Unibell.png");
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    }
+                .lijin{
+    	position: absolute;
+    	width: 100%;
+    	height: 1000px;
+    	top: 100px;
+    	background-image: url("6af923a08db7c8ed37a5d3774b44ad.png");
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    }
+                    .liiris{
+    	position: absolute;
+    	width: 100%;
+    	height: 1000px;
+    	top: 100px;
+    	background-image: url("1032px-W-Iris.png");
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    }
+    /*底部編輯*/
+    #down{
+    	height:150px;
+    	float: bottom;
+    	background-image: url("soulworker-english.png");
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: 10% 25%;
+    }
+    .ul13{
+    	width: 100%;
+    	height: 100px;
+    	padding: 3em;
+    	text-align: center;
+    	position: absolute;
+    	font-family: DFKai-sb;
+    	text-shadow: 2px 2px 5px;
+    }
+    .nav-item{
+    	position: relative;
+    	text-align: center;
+    	left: 68px;
+    	padding: 1px;
+    	padding-right: 200px;
+    	font-size: 100%;
+    }
+    </style>
+<body>
+	<!--頂部資訊-->
+<div id="topper">
+    <ul class="nav nav-tabs ul13" id="myTab" role="tablist">
+	  <li class="nav-item">
+	    <a class="nav-link active" id="haru-tab" data-toggle="tab" href="#haru" role="tab" aria-controls="haru" aria-selected="true">哈露</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" id="erwin-tab" data-toggle="tab" href="#erwin" role="tab" aria-controls="erwin" aria-selected="false">歐文</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" id="lily-tab" data-toggle="tab" href="#lily" role="tab" aria-controls="lily" aria-selected="false">莉莉</a>
+	  </li>
+	   <li class="nav-item">
+	    <a class="nav-link" id="stella-tab" data-toggle="tab" href="#stella" role="tab" aria-controls="stella" aria-selected="false">史黛拉</a>
+	  </li>
+	  	<li class="nav-item">
+	    <a class="nav-link" id="jin-tab" data-toggle="tab" href="#jin" role="tab" aria-controls="jin" aria-selected="false">金</a>
+	  </li>
+	  	<li class="nav-item">
+	    <a class="nav-link" id="iris-tab" data-toggle="tab" href="#iris" role="tab" aria-controls="iris" aria-selected="false">伊莉絲</a>
+	  </li>
+	</ul>
+	<div class="tab-content" id="myTabContent">
+	  <div class="tab-pane fade show active liharu" id="haru" role="tabpanel" aria-labelledby="haru-tab">
+	  	<div class="vdst">
+	  	  <iframe width="560" height="315" src="https://www.youtube.com/embed/YNJuLczf3vQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	    </div>
+	    <img class="haruimg" src="HaruSelect.png">
+	  </div>
+	  <div class="tab-pane fade lierwin" id="erwin" role="tabpanel" aria-labelledby="erwin-tab">
+	  	<div class="vdst1">
+	  		<iframe width="560" height="315" src="https://www.youtube.com/embed/cwEaDfHBj9s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	  	</div>
+	  </div>
+	  <div class="tab-pane fade lilily" id="lily" role="tabpanel" aria-labelledby="lily-tab">
+	  	<div class="vdst1">
+	  		<iframe width="560" height="315" src="https://www.youtube.com/embed/S0_wjArdNQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  	</div>
+	  </div>
+	  <div class="tab-pane fade listella" id="stella" role="tabpanel" aria-labelledby="stella-tab">
+	  	<div class="vdst">
+	  		<iframe width="560" height="315" src="https://www.youtube.com/embed/JQ9KE93KNrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  	</div>
+	  </div>
+	  <div class="tab-pane fade lijin" id="jin" role="tabpanel" aria-labelledby="jin-tab">
+	  	<div class="vdst">
+	  		<iframe width="560" height="315" src="https://www.youtube.com/embed/kPjBI1lg70Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  	</div>
+	  </div>
+	  <div class="tab-pane fade liiris" id="iris" role="tabpanel" aria-labelledby="iris-tab">
+	  	<div class="vdst">
+	  		<iframe width="560" height="315" src="https://www.youtube.com/embed/D8TW0MQNVHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  	</div>
+	  </div>
+    </ul>
+</div>
+</div>
+<div id="article">
+	<img class="imgcl" src="Fansite_logo.png"></a>
+</div>
+
+<!--底部資訊-->
+<div id="down">
+<a href="soulworker html.html">
+	<img class="imgcl2" src="Fansite_logo.png"></a>
+</div>
+</body>
+</html>
